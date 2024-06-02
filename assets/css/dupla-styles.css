@@ -227,6 +227,9 @@ font-style: italic;
 .service-title {
 	padding-top: 52px;
 }
+	.cover-opacity-1::before {
+     opacity: 0; 
+}
 /* - - - - - - - - - -  PROJECTS - - - - - - - -  - - -*/
 
 
@@ -324,6 +327,18 @@ font-style: italic;
 	}
 	.footer-col {
 	width: 100%;
+}
+	.swiper-slide-active {
+		scale:.75;
+	}
+	.swiper-full-mobile .swiper-slide-active  {
+		scale:1;
+	}
+.proj-col-wraper div {
+    padding: 0;
+}
+	.proj-col-wraper div:last-child {
+    padding-left: 0;
 }
     
 }
