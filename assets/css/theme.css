@@ -268,7 +268,7 @@ body.tt-transition .ptr-overlay {
 	left: 0;
 	width: 100%;
 	height: 100vh;
-	background-color: #3f5ba6; /*#111*/
+	background-color: #ffffff; /* #3f5ba6 #111*/
 	z-index: 1;
 }
 
@@ -6944,7 +6944,7 @@ body:not(.is-mobile) .tt-content-carousel.cc-hide-pagination .tt-cc-pagination {
 	margin: 0 auto;
 	opacity: .8;
 	filter: grayscale(1);
-	max-width: 200px;
+	max-width: 300px;
 	transition: opacity 0.3s;
 	transition: .3s;
 }
