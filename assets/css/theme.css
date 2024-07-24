@@ -6974,7 +6974,7 @@ body:not(.is-mobile) .tt-content-carousel.cc-hide-pagination .tt-cc-pagination {
 }
 @media (max-width: 1024px) {
 	.tt-testimonials-slider .swiper-slide {
-		width: 200px; /*width: 100% !important;*/
+		width: 300px; /*width: 100% !important;*/
 		margin-left: 3vw;
 		margin-right: 3vw;
 	}
