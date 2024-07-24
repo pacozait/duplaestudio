@@ -120,7 +120,7 @@ tlAbout
 var SceneAboutV1 = new ScrollMagic.Scene({
 	triggerElement: '#VideoAbout1',
 	triggerHook:0,
-	duration:"320%"
+	duration:"260%"
 })
 
 .setTween(tlAbout)
