@@ -22,6 +22,15 @@ body.tt-transition .ptr-prel-content {
     z-index: 1000;
 	background-color: #ffffff;
 }
+.btn-start {
+	width: 140px;
+    height: 60px;
+    top: 2%;
+    left: 4%;
+    position: fixed;
+    z-index: 1010;
+    background-color: transparent;
+}
 
 .logo-header-wrapper {
 	position: relative;
@@ -416,6 +425,14 @@ font-style: italic;
 .intro-project-vieo video {
 	width: 100%;
 }
+
+.contact-section {
+	margin-top: 120px;
+}
+.tt-form-control:focus {
+    color: #000 !important;
+	border-color: #5E5E5E !important;
+}
 /* - - - - - - - - - -  RESPONSIVE - - - - - - - -  - - -*/
 
 @media (min-width: 1124px) {
@@ -444,7 +461,9 @@ font-style: italic;
 	.tt-accordion-caret-wrap {
 		margin-bottom: 30px
 	}
-	
+	.contact-section {
+	margin-top: 20px;
+}
 	}
 
 @media (max-width: 768px) {
