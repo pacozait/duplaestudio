@@ -154,9 +154,9 @@ display: flex;
     font-size: calc(16px + 9vw);
     font-weight: bold;
     font-weight: 600;
-    color: #000000;
+    color: #666666;
     white-space: nowrap;
-    opacity: .1;
+    opacity: .07;
     z-index: 1;
 	line-height: 1;
 }
